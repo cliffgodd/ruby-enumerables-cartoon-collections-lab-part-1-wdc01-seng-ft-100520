@@ -1,7 +1,8 @@
 def greet_characters(array)
-  array.each do |element|
-    puts 'Hello, #{array[element]}!'
+  array.each do |name|
   end
+  puts "Hello #{name}!"
+
 
   # Use `each` to enumerate over the provided array
   #
@@ -10,7 +11,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do |element, index|
-    puts "#{index+=1}. #{element}"
+    puts "#{index += 1}. #{element}"
   end
 
   # Use `each_with_index` to enumerate over the provided array
