@@ -4,7 +4,7 @@ def greet_characters(array)
     puts "Hello #{element}!"
 
   end
-
+element+=1
 
 
   # Use `each` to enumerate over the provided array
