@@ -1,7 +1,6 @@
 def greet_characters(array)
-  array.each do |char|
-    char.class == String
-    puts "Hello, #{char}!"
+  array.each do |element|
+    puts "Hello, #{element}!"
 
   # Use `each` to enumerate over the provided array
   #
