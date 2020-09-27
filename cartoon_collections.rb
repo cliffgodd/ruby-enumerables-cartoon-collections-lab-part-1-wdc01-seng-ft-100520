@@ -1,5 +1,6 @@
 def greet_characters(array)
   array.each do |element|
+    element == array[element]
     puts "Hello, #{array[element]}!"
   end
 
